@@ -1,3 +1,11 @@
+## My S3 buckets 
+
+Public: https://public-kcm3dm.s3.amazonaws.com/index.html 
+Private: https://secret-kcm3dm.s3.amazonaws.com/pg102.txt?AWSAccessKeyId=ASIA2PKYTOJU5SJK2JTR&Signature=9%2FbWK9FlnSW%2BLRGwdIKaiTmwdCE%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEIb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDm%2FUFhfggQjw9qY3uJvZT3SNqk%2B%2FHtqBbyJeriu7dC4wIgQpJN5hHEUrm%2Bgu6awiuPZGKBHw01ePt6uJMsQnti5wMqrQIITxAAGgw3MjAxMjk3MTY4NDEiDEHwF40azul4vBB26yqKAijlsTvSDuWiYPPMoruYq4F3UoV9wQ5rKcRPIUHhnoAkkQ%2B5ZYc%2FYk7PD5blwZrS8VH1eS2hneMm3OZy5sXWTPbEN1vy4DZoYgL1TmOCZFcmK8VeBdkH%2FEVZ2S3CMVsX9VdrWLMxivIB8dWxX5Tx7oO1yCHGShNxquTP5Ka8TJCU1TitabKpXTjROrr7avv%2F16tCgZou%2BjkbMb%2F2YjVk31SzCOzKKGhwbMWQPY4lNapKOIeAsmfXec%2FyCGplLHhNCzvs%2Fvc7oYtcZV7dhpJzMCzvgJAzQ91SNkoMXbFDfB4qr8sQZQhW96LAtpLxqT%2FgKpfO318qYAwoHPmF%2F9PFS9%2BdS6XoKJheu1DdMNLK39YGOp0B6rASBWKt%2Bry6qwqseR15PcD8BufknLdWLQFnkkOkPXjLJtBeof0tzSYRfSnFVKbI%2BHuCAG65u9ZFRpb2caC5l8B8Fp7aizb%2BCgO9jnCC%2BH92tZFO1wfyLm38ItwI5Evq29jkFvwtub%2FB1wKVZx%2FVLQYljdkV8cad0u%2FmU1SxgwZqpLBuq5oFzyjNRDuCZ2juQCgCdky4y%2FHeenOH%2Bg%3D%3D&Expires=1793140146
+
+Public buckets are useful when the files should be accessible to anyone, while a predesigned URL is useful for temporary sharing of a private file without making the entire bucket public.
+
+
 # Lab 06: Working with S3 Storage
 
 The goal of this lab is to get you comfortable with **Amazon S3** object storage, building on what you have learned about the command line, AWS accounts, and scripting. You will stage a collection of 100 books from [Project Gutenberg](https://www.gutenberg.org/) in a **public** bucket that anyone can browse in a web browser, and share a single book from a **private** bucket with a time-limited presigned URL.
